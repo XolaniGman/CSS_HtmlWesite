@@ -1,0 +1,35 @@
+
+body, html {
+    box-sizing: border-box;
+    height: 100%;
+}
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/99.jpg");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* # About
+--------------------------------------------------------------*/ */
+
+.About_card{
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-image: linear-gradient(to right,#00dbde,#fc00ff);
+    transition: 0.3s ease-in;
+
+}
